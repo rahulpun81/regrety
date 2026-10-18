@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Operation: Make Her Smile Again 💗</title>
+  <meta name="description" content="A tiny website for the girl who means the world to me.">
+  <meta name="theme-color" content="#fde4e8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Fonts are optional: if they fail to load, elegant system fonts take over. -->
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <a class="skip-link" href="#site">Skip to content</a>
+
+  <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+  <nav class="dots" id="dots" aria-label="Sections" hidden></nav>
+  <div class="bg-hearts" id="bgHearts" aria-hidden="true"></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <div class="music" id="music">
+    <button class="music-btn" id="musicBtn" type="button" aria-pressed="false" aria-label="Play music">♪</button>
+    <span class="music-title" id="musicTitle"></span>
+  </div>
+
+  <noscript>
+    <p class="noscript">This little website needs JavaScript to open its surprises. Please turn it on and refresh. 💗</p>
+  </noscript>
+
+  <!-- ============ 2. OPENING: THE SECRET ENVELOPE ============ -->
+  <section class="intro" id="intro" aria-label="A secret envelope">
+    <div class="intro-hearts" id="introHearts" aria-hidden="true"></div>
+    <p class="intro-top">pssst... someone made something for you.</p>
+
+    <button class="envelope" id="envelope" type="button" aria-label="Open the envelope">
+      <span class="env-back"></span>
+      <span class="env-letter"><span class="env-letter-text">for <b data-name>you</b> 💗</span></span>
+      <span class="env-front"></span>
+      <span class="env-flap"></span>
+      <span class="env-seal" aria-hidden="true">♥</span>
+    </button>
+
+    <p class="intro-bottom">It's not a gift you can unwrap, but I hope it makes you smile.</p>
+    <button class="btn" id="openBtn" type="button">Open your little surprise 💌</button>
+    <button class="skip" id="skipBtn" type="button">skip intro</button>
+  </section>
+
+  <main class="site" id="site" tabindex="-1">
+
+    <!-- ============ HERO ============ -->
+    <section class="sec hero" id="hero">
+      <div class="wrap">
+        <p class="eyebrow">for <span data-name>you</span></p>
+        <h1 class="reveal">Operation: Make Her Smile Again <span aria-hidden="true">💗</span></h1>
+        <p class="lead reveal">A tiny website for the girl who means the world to me.</p>
+        <a class="scroll-cue" href="#question">scroll gently <span aria-hidden="true">↓</span></a>
+      </div>
+    </section>
+
+    <!-- ============ 3. THE MAIN QUESTION ============ -->
+    <section class="sec" id="question" aria-labelledby="qTitle">
+      <div class="wrap">
+        <svg class="bunny" viewBox="0 0 200 230" role="img" aria-label="A little bunny holding a heart with pleading eyes">
+          <ellipse cx="72" cy="50" rx="19" ry="46" fill="#fff" stroke="#e7c3cb" stroke-width="3" transform="rotate(-8 72 50)"/>
+          <ellipse cx="72" cy="52" rx="9" ry="32" fill="#f8c9d3" transform="rotate(-8 72 52)"/>
+          <ellipse cx="128" cy="50" rx="19" ry="46" fill="#fff" stroke="#e7c3cb" stroke-width="3" transform="rotate(10 128 50)"/>
+          <ellipse cx="128" cy="52" rx="9" ry="32" fill="#f8c9d3" transform="rotate(10 128 52)"/>
+          <ellipse cx="100" cy="196" rx="52" ry="34" fill="#fff" stroke="#e7c3cb" stroke-width="3"/>
+          <ellipse cx="100" cy="124" rx="64" ry="54" fill="#fff" stroke="#e7c3cb" stroke-width="3"/>
+          <circle cx="68" cy="140" r="11" fill="#f8b4c4" opacity=".55"/>
+          <circle cx="132" cy="140" r="11" fill="#f8b4c4" opacity=".55"/>
+          <circle cx="78" cy="118" r="10" fill="#3b2230"/><circle cx="122" cy="118" r="10" fill="#3b2230"/>
+          <circle cx="81.5" cy="114" r="4" fill="#fff"/><circle cx="125.5" cy="114" r="4" fill="#fff"/>
+          <circle cx="75" cy="121" r="1.8" fill="#fff"/><circle cx="119" cy="121" r="1.8" fill="#fff"/>
+          <path d="M64 100 q12 -8 22 -2" stroke="#3b2230" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+          <path d="M136 100 q-12 -8 -22 -2" stroke="#3b2230" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+          <ellipse cx="100" cy="134" rx="6" ry="4.5" fill="#e9798f"/>
+          <path d="M93 143 q7 7 14 0" stroke="#3b2230" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+          <path d="M100 218 C66 194 74 168 90 173 C97 175 100 181 100 181 C100 181 103 175 110 173 C126 168 134 194 100 218Z" fill="#e0506f"/>
+          <ellipse cx="76" cy="186" rx="13" ry="10" fill="#fff" stroke="#e7c3cb" stroke-width="3"/>
+          <ellipse cx="124" cy="186" rx="13" ry="10" fill="#fff" stroke="#e7c3cb" stroke-width="3"/>
+        </svg>
+
+        <h2 class="reveal kicker" id="qTitle">Okay, serious question...</h2>
+        <p class="big-q reveal">Are you still upset with me? 🥺</p>
+        <p class="sub reveal">Please answer honestly. I'm emotionally unprepared, but I'll survive.</p>
+
+        <p class="speech" id="dodgeMsg" role="status" aria-live="polite"></p>
+
+        <div class="dodge-zone" id="dodgeZone">
+          <button class="btn yes" id="btnYes" type="button">YES, OBVIOUSLY 😤</button>
+        </div>
+
+        <div class="btn-row">
+          <button class="btn ghost q-btn" id="btnLittle" type="button" data-answer="little">A LITTLE BIT 🥹</button>
+          <button class="btn ghost q-btn" id="btnLess" type="button" data-answer="notAsMuch">NOT AS UPSET NOW 💗</button>
+        </div>
+        <button class="linkish q-btn" id="btnHonest" type="button" data-answer="yes">Let me just answer honestly: yes, I'm still upset</button>
+
+        <div class="response" id="qResponse" hidden></div>
+      </div>
+    </section>
+
+    <!-- ============ 4. THE COURTROOM ============ -->
+    <section class="sec sec-court" id="court" aria-labelledby="courtTitle">
+      <div class="wrap">
+        <div class="gavel" aria-hidden="true">🔨</div>
+        <h2 class="reveal" id="courtTitle">THE PEOPLE VS. YOUR BOYFRIEND</h2>
+        <p class="sub reveal">After careful investigation, the court has reached a verdict.</p>
+
+        <div class="case-file reveal">
+          <p class="case-tag">CASE FILE <span aria-hidden="true">· CONFIDENTIAL · CUTE</span></p>
+          <dl id="caseList"></dl>
+        </div>
+
+        <button class="btn" id="btnVerdict" type="button" aria-expanded="false" aria-controls="verdict">REVEAL THE SENTENCE ⚖️</button>
+
+        <div class="verdict" id="verdict" hidden>
+          <div class="stamp" aria-hidden="true">GUILTY</div>
+          <p class="verdict-h">The defendant is sentenced to:</p>
+          <ol id="sentenceList"></ol>
+          <p class="footnote" id="courtFoot"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 5. THINGS I LOVE ABOUT YOU ============ -->
+    <section class="sec" id="notes" aria-labelledby="notesTitle">
+      <button class="secret-star" id="secretStar" type="button" aria-label="A tiny hidden star">✦</button>
+      <div class="wrap">
+        <h2 class="reveal" id="notesTitle">In case I don't tell you enough...</h2>
+        <p class="sub reveal">Here are a few things about you that make you, well... YOU.</p>
+
+        <div class="note-card" id="noteCard" aria-live="polite">
+          <p class="note-hint">Tap an envelope to open a note 💌</p>
+        </div>
+        <button class="btn" id="btnNote" type="button">Open a random note 💌</button>
+        <p class="count" id="noteCount" aria-live="polite"></p>
+        <div class="env-grid" id="envGrid"></div>
+      </div>
+    </section>
+
+    <!-- ============ 6. PHOTO SCRAPBOOK ============ -->
+    <section class="sec sec-scrap" id="scrapbook" aria-labelledby="scrapTitle">
+      <div class="wrap wide">
+        <h2 class="reveal" id="scrapTitle">Our little universe 📸</h2>
+        <p class="sub reveal">Tap any photo to look closer.</p>
+        <div class="scrap" id="scrap"></div>
+        <button class="btn" id="btnMemory" type="button">SHOW ME ANOTHER MEMORY 📸</button>
+        <p class="memory-cap" id="memoryCap" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <!-- ============ 7. THE APOLOGY ============ -->
+    <section class="sec sec-sorry" id="sorry" aria-labelledby="sorryTitle" data-mode="sorry">
+      <div class="wrap narrow">
+        <button class="glow-heart" id="bigHeart" type="button" aria-label="A softly glowing heart">♥</button>
+        <p class="heart-egg" id="heartEgg" role="status" hidden></p>
+        <h2 class="reveal" id="sorryTitle">Jokes aside, my love...</h2>
+        <p class="sub reveal">This part comes straight from my heart.</p>
+        <div class="letter" id="letter"></div>
+        <p class="letter-note reveal" id="letterNote"></p>
+      </div>
+    </section>
+
+    <!-- ============ 8. PROMISE CARDS ============ -->
+    <section class="sec" id="promises" aria-labelledby="promTitle">
+      <div class="wrap wide">
+        <h2 class="reveal" id="promTitle">Four honest commitments 🌷</h2>
+        <p class="sub reveal">Not guarantees of perfection. Just things I want to work on. Tap a card.</p>
+        <div class="promise-grid" id="promiseGrid"></div>
+      </div>
+    </section>
+
+    <!-- ============ 9. QUIZ ============ -->
+    <section class="sec sec-quiz" id="quiz" aria-labelledby="quizTitle">
+      <div class="wrap narrow">
+        <h2 class="reveal" id="quizTitle">A little love quiz 💌</h2>
+        <p class="sub reveal">No scores. No wrong answers. Nothing is saved or sent anywhere.</p>
+        <div class="quiz-box" id="quizBox"></div>
+      </div>
+    </section>
+
+    <!-- ============ 10. GIFT BOX ============ -->
+    <section class="sec" id="gift" aria-labelledby="giftTitle">
+      <div class="wrap narrow">
+        <h2 class="reveal" id="giftTitle">One tiny surprise remains...</h2>
+        <div class="gift" id="giftBox" aria-hidden="true">
+          <div class="gift-glow"></div>
+          <div class="gift-lid"><div class="bow"><i></i></div></div>
+          <div class="gift-box"></div>
+        </div>
+        <button class="btn" id="btnGift" type="button">OPEN YOUR LITTLE GIFT 🎁</button>
+        <div class="gift-msg" id="giftMsg" hidden></div>
+      </div>
+    </section>
+
+    <!-- ============ 11. GOODNIGHT ============ -->
+    <section class="sec sec-night" id="goodnight" aria-labelledby="nightTitle" data-mode="night">
+      <div class="stars" id="stars" aria-hidden="true"></div>
+      <div class="night-hearts" id="nightHearts" aria-hidden="true"></div>
+      <div class="wrap narrow">
+        <div class="moon" aria-hidden="true"></div>
+        <h2 class="visually-hidden" id="nightTitle">A soft goodnight</h2>
+        <p class="night-1 reveal" id="night1"></p>
+        <p class="night-2 reveal" id="night2"></p>
+        <p class="night-3 reveal" id="night3"></p>
+        <p class="signature reveal"><span id="signoff"></span><br><span id="sig"></span> ♡</p>
+        <button class="btn ghost light" id="btnTop" type="button">REVISIT OUR LITTLE UNIVERSE</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Photo lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+    <button class="lb-btn lb-close" id="lbClose" type="button" aria-label="Close photo">✕</button>
+    <button class="lb-btn lb-prev" id="lbPrev" type="button" aria-label="Previous photo">‹</button>
+    <figure class="lb-fig">
+      <div class="lb-stage" id="lbStage"></div>
+      <figcaption id="lbCap"></figcaption>
+    </figure>
+    <button class="lb-btn lb-next" id="lbNext" type="button" aria-label="Next photo">›</button>
+  </div>
+
+  <script src="content.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
